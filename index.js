@@ -12,7 +12,7 @@ const {allowInsecurePrototypeAccess} = require('@handlebars/allow-prototype-acce
 var urlencodedParser = bodyParser.urlencoded({extended: false})
 //ket noi mong go db
 
-mongoose.connect('mongodb://phancanh:canhphan1234@canhcluster-shard-00-00.nt3jr.mongodb.net:27017,canhcluster-shard-00-01.nt3jr.mongodb.net:27017,canhcluster-shard-00-02.nt3jr.mongodb.net:27017/TINDERASSIGMENT?ssl=true&replicaSet=atlas-13d0nc-shard-0&authSource=admin&retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://admin:Luc@2001@cluster0.clu27.mongodb.net/tinder?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
